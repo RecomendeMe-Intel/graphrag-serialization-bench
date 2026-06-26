@@ -22,7 +22,7 @@ Este experimento testa **3 formatos de serialização × 3 modelos open-source**
 ## 🧱 Metodologia
 
 ### Grafo de teste
-Subgrafo fictício, fiel ao schema usado no MasterZap / RecomendeMe Intelligence (Neo4j): nós do tipo `Pessoa`, `Organização`, `Evento`, `Documento`, `Fonte`, conectados por arestas tipadas (`OPERA_EM`, `CONTATO_SUSPEITO`, `DENUNCIA` etc).
+Subgrafo fictício, fiel ao schema usado no RecomendeMe Intelligence (Neo4j): nós do tipo `Pessoa`, `Organização`, `Evento`, `Documento`, `Fonte`, conectados por arestas tipadas (`OPERA_EM`, `CONTATO_SUSPEITO`, `DENUNCIA` etc).
 
 ### Formatos de serialização testados
 
@@ -123,7 +123,7 @@ os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-# --- Grafo de teste (fiel ao schema Neo4j do MasterZap) ---
+# --- Grafo de teste (fiel ao schema Neo4j) ---
 SUBGRAPH = {
     "nodes": [
         {"id": "P001", "label": "Pessoa", "properties": {"nome": "Carlos Menezes", "apelido": "CarlosMZ", "status": "suspeito_ativo"}},
