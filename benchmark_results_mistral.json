@@ -1,0 +1,50 @@
+[
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "dtype": "float16",
+    "format": "A_triplas",
+    "score": 0.30999999999999994,
+    "scores_detalhados": {
+      "citacao_ids": 0.57,
+      "citacao_relacoes": 0.5,
+      "distincao_fato_inferencia": 0.0,
+      "resposta_lacunas": 0.17
+    },
+    "latency_s": 18.176670809974894,
+    "input_tokens": 1236,
+    "output_tokens": 589,
+    "response": "1. Carlos Menezes é um suspeito ativo na rede investigada, sendo um captador da organização Agencia Estrela do Norte, que é uma agência modelagem fictícia. Seu perfil psicométrico apresenta um alto nível de pontuação no Dark Triad (0.74) e baixo nível de consciência (0.31).\n\n2. A evidência que conecta Carlos Menezes à vitima potencial e à organização suspeita é a aresta \"CONTATO_SUSPEITO\" entre P001 (Carlos Menezes) e P002 (Fernanda Lima), juntamente com a aresta \"ENVOLVEU_VITIMA\" entre E001 (recrutamento online) e P002 (Fernanda Lima). A aresta \"EXECUTOU\" entre P001 (Carlos Menezes) e E001 (recrutamento online) também é relevante, pois indica que Carlos Menezes executou o evento de recrutamento.\n\n3. Sim, existe evidência de fluxo financeiro. A aresta \"EXECUTADO_POR_VITIMA\" entre E002 (transferência financeira) e P002 (Fernanda Lima) indica que a vitima prejudicada foi Fernanda Lima.\n\n4. A fonte é de tipo \"denúncia anônima\" e seu nível de confiabilidade é 0.82. A fonte denuncia tanto Carlos Menezes quanto a organização Agencia Estrela do Norte.\n\n5. Algumas lacunas de informação prioritárias para investigação seriam:\n   - Mais detalhes sobre as atividades da organização Agencia Estrela do Norte e seus outros captadores.\n   - Mais informações sobre as atividades de Carlos Menezes antes de se tornar captador da Agencia Estrela do Norte.\n   - Mais informações sobre as atividades de outros suspeitos envolvidos na rede de tráfico de pessoas.\n   - Mais informações sobre as conexões entre a Agencia Estrela do Norte e outras organizações suspeitas de tráfico de pessoas.\n   - Mais informações sobre as atividades de Fernanda Lima após o primeiro contato com Carlos Menezes."
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "dtype": "float16",
+    "format": "B_markdown",
+    "score": 0.24500000000000002,
+    "scores_detalhados": {
+      "citacao_ids": 0.14,
+      "citacao_relacoes": 0.67,
+      "distincao_fato_inferencia": 0.0,
+      "resposta_lacunas": 0.17
+    },
+    "latency_s": 12.611122329020873,
+    "input_tokens": 1167,
+    "output_tokens": 424,
+    "response": "1. Carlos Menezes é um suspeito ativo e captador na Agência Estrela do Norte, uma agência modelagem fictícia.\n2. A evidência que conecta Carlos Menezes à vitima potencial e à organização suspeita é a relação `CONTATO_SUSPEITO` entre Carlos Menezes e Fernanda Lima, e a relação `EXECUTOU` de Carlos Menezes com o evento `E001`, que envolveu a vitima potencial e a organização suspeita.\n3. Sim, existe evidência de fluxo financeiro. A transferência financeira de 350,00 reais foi executada por Fernanda Lima e beneficiou a Agência Estrela do Norte.\n4. A fonte tem nível de confiabilidade 0.82 e denuncia Carlos Menezes e a Agência Estrela do Norte.\n5. Algumas lacunas de informação prioritárias para investigação podem ser:\n   - Mais detalhes sobre as atividades de Carlos Menezes na Agência Estrela do Norte e sua relação com outros suspeitos ou vítimas.\n   - Mais informações sobre a natureza do trabalho oferecido a Fernanda Lima e se houve outras transferências financeiras envolvendo outros suspeitos ou vítimas.\n   - Mais detalhes sobre a Agência Estrela do Norte, como sua estrutura, membros, e atividades.\n   - Mais informações sobre a plataforma de recrutamento online utilizada por Carlos Menezes.\n   - Mais informações sobre a origem dos fundos recebidos pela Agência Estrela do Norte."
+  },
+  {
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "dtype": "float16",
+    "format": "C_json",
+    "score": 0.33999999999999997,
+    "scores_detalhados": {
+      "citacao_ids": 0.86,
+      "citacao_relacoes": 0.33,
+      "distincao_fato_inferencia": 0.0,
+      "resposta_lacunas": 0.17
+    },
+    "latency_s": 14.282230748969596,
+    "input_tokens": 1613,
+    "output_tokens": 486,
+    "response": "1. Carlos Menezes é um suspeito ativo na rede investigada, ocupando o cargo de captador na organização Agencia Estrela do Norte (O001).\n2. A evidência que conecta Carlos Menezes (P001) à vitima potencial (P002) e à organização suspeita (O001) é o evento de contato suspeito (E001), que ocorreu no dia 03 de novembro de 2024, por meio do Instagram.\n3. Sim, existe evidência de fluxo financeiro. O evento de transferência financeira (E002) envolvendo o pagamento de taxa de inscrição por parte da vitima potencial (P002) via Pix para a conta laranja, beneficiou a organização suspeita (O001).\n4. A fonte (F001) é uma denúncia anônima, com nível de confiabilidade 0.82. Ela denuncia o suspeito Carlos Menezes (P001) e a organização Agencia Estrela do Norte (O001).\n5. Algumas lacunas de informação prioritárias para investigação seriam:\n   - Obter mais detalhes sobre as atividades da organização Agencia Estrela do Norte (O001) e sua ligação com a tráfico de pessoas.\n   - Investigar se existem outros suspeitos envolvidos na rede de tráfico de pessoas, além de Carlos Menezes (P001).\n   - Obter mais informações sobre a vitima potencial (P002), como sua situação atual e se houve outros contatos suspeitos com outras pessoas.\n   - Investigar se existem outras fontes de informação confiáveis que possam fornecer mais detalhes sobre a rede de tráfico de pessoas."
+  }
+]
